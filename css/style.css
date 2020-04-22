@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    .navbar-nav .nav-item .nav-link{
+        text-transform: uppercase;
+        color: #204f87;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .banner{
+        background-image: url(../images/banner.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 80vh;
+    }
+    .hg{
+        min-height: 80vh;
+    }
+    .hg h1{
+        
+    text-transform: uppercase;
+        
+    color: #fff;
+        
+    font-weight: 600;
+        
+    font-size: 80px;
+    }
+    .who-we-are{
+
+margin-top: 100px;
+
+margin-bottom: 100px;
+
+}
+    .heading{
+
+margin-top: 80px;
+
+}
+.heading h1{
+    position: relative;
+    text-transform: uppercase;
+}
+.heading h1::before{
+    content: '';
+    position: absolute;
+    width: 15%;
+    height: 5px;
+    top: 0;
+    left: 0;
+    background-color: #f15828;
+    transition: all 1s ease;
+} 
+.heading h1:hover::before{
+    height: 5px;
+    width: 100%;
+}   
+    
+.whoweare-content{
+
+    }
+.whoweare-content p{
+
+text-align: justify;
+
+}
+.what-we-do{
+    padding: 50px 0px;
+    background-image: url(../images/banner3.png);
+    background:;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    min-height: 725px;
+}
+.heading2 h1{
+
+text-transform: uppercase;
+
+padding-bottom: 45px;
+}
+.heading2 h1::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    top: 0;
+    left: 50%;
+    background-color: #f15828;
+    transition: 0.5s all ease-in-out ;
+} 
+.heading2:hover h1::before{
+    width: 100%;
+    left: 0%;
+} 
+.what-we{
+
+position: relative;
+
+margin-bottom: 10px;
+}
+.what-we::before{
+    content: '';
+    position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 0%;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#43467c+0,2c3083+99&0+0,1+100 */
+background: -moz-linear-gradient(top, rgba(67,70,124,0) 0%, rgba(44,48,131,0.99) 99%, rgba(44,48,131,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(67,70,124,0) 0%,rgba(44,48,131,0.99) 99%,rgba(44,48,131,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(67,70,124,0) 0%,rgba(44,48,131,0.99) 99%,rgba(44,48,131,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0043467c', endColorstr='#2c3083',GradientType=0 ); /* IE6-9 */
+transition: 0.3s all ease-in-out;
+}
+.what-we:hover::before{
+    height: 100%;
+}
+.what-we-content{
+
+position: absolute;
+
+top: 100%;
+
+left: 50%;
+
+transform: translate(-50%, -50%);
+
+color: #fff;
+
+text-transform: uppercase;
+
+text-align: center;
+
+padding-top: 100px;
+opacity: 0;
+transition: 0.5s all ease-in-out;
+}
+.what-we:hover .what-we-content{
+opacity: 1;
+top: 35%
+}
+.arrow {
+    position: absolute;
+    top: 80%;
+    left: 0%;
+    transform: translate(-50%, -70%);
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+    transition: 0.8s all ease-in-out;
+    opacity: 0;
+}
+.arrow i{
+    
+font-size: 40px;
+}
+.what-we:hover .arrow{
+    left: 50%;
+    opacity: 1;
+}
+.attorneys{background-image: url(../images/banner4.png);background-repeat: no-repeat;background-position: center;background-size: cover;min-height: 700px;padding: 100px 0px;}
+.heading3{}
+.mk{
+    
+}
+.heading3 h1{
+
+text-transform: uppercase;
+
+padding-bottom: 45px;
+
+color: #fff;
+
+font-size: 36px;
+
+}
+.heading3 h1::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    top: 0;
+    left: 0%;
+    background-color: #f15828;
+    transition: 0.5s all ease-in-out;
+ } 
+.heading3:hover h1::before{
+     width: 70%;
+     left: 3%;
+} 
+.heading3 p{
+
+color: #929dcf;
+}
+.heading3 a{
+
+color: #f15b2a;
+}
+.attorneys-our{
+
+    position: relative;
+    
+    margin-bottom: 10px;
+    }
+    .attorneys-our::before{
+        content: '';
+        position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#43467c+0,2c3083+99&0+0,1+100 */
+    background: -moz-linear-gradient(top, rgba(67,70,124,0) 0%, rgba(44,48,131,0.99) 99%, rgba(44,48,131,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(67,70,124,0) 0%,rgba(44,48,131,0.99) 99%,rgba(44,48,131,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(67,70,124,0) 0%,rgba(44,48,131,0.99) 99%,rgba(44,48,131,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0043467c', endColorstr='#2c3083',GradientType=0 ); /* IE6-9 */
+    transition: 0.3s all ease-in-out;
+    }
+    .attorneys-our:hover::before{
+        height: 100%;
+    }
+    .attorneys-content{
+
+position: absolute;
+
+top: 90%;
+
+left: 45%;
+
+transform: translate(-50%, -50%);
+
+color: #fff;
+
+text-transform: uppercase;
+
+text-align: center;
+
+padding-top: 0px;
+
+opacity: 0;
+
+transition: 0.5s all ease-in-out;
+}
+        .attorneys-our:hover .attorneys-content{
+        opacity: 1;
+        top: 60%
+        }
+.attorneys-content h4{
+    
+}
+.languages{
+
+padding: 70px 0px;
+
+min-height: 700px;
+}
+.tlan{
+
+margin-bottom: 40px;
+}
+.tlan h1{
+
+text-align: center;
+
+text-transform: uppercase;
+}
+.lan{
+
+}
+.lan h3{
+
+color: #28377e;
+
+text-transform: uppercase;
+
+padding-bottom: 10px;
+}
+.lan p{
+
+color: #b1b0b1;
+
+text-align: justify;
+}
+.lan a{
+
+color: #f1592b;
+
+font-weight: 600;
+}
+.contact{
+    
+background-color: #28377ef0;
+    
+min-height: 400px;
+    
+padding: 75px 0px;
+}
+.ee h1{
+    
+color: #fff;
+    
+text-transform: uppercase;
+    
+font-size: 34px;
+    
+text-align: center;
+}
+.ee h1::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 5px;
+    top: 0;
+    left: 50%;
+    background-color: #f15828;
+    transition: 0.5s all ease-in-out ;
+} 
+.ee:hover h1::before{
+    width: 40%;
+    left: 30%;
+} 
+form{
+
+}
+.form-row{
+
+margin: 0;
+}
+.form-group{margin: 0;}
+input.form-control {
+    width: 100%;
+    margin-bottom: 10px;
+    border: transparent;
+    border-bottom: solid rgba(0, 123, 255, 0.64);
+    background-color: transparent;
+}
+.mb-3{
+}
+textarea.form-control{
+    
+width: 100%;
+    
+margin-bottom: 10px;
+    
+border: transparent;
+    
+border-bottom: solid rgba(0, 123, 255, 0.77);
+    
+background-color: transparent;
+}
+.button{
+
+text-align: center;
+}
+button{font-weight: 500!important;border: 2px solid #f47538!important;background: border-box;background-color: #f47537!important;padding: 5px 40px!important;margin-top: 20px;}
+button:hover{
+    background-color: transparent!important;
+    color: #f47538!important;
+    font-weight: 500;
+}
+footer{
+
+min-height: 50px;
+
+background-color: #131a3e;
+}
+.ll{
+    
+}
+.nn{
+    
+padding: 20px 0px;
+}
+.foot{
+
+width: 40%;
+
+display: inline-flex;
+
+padding: 0;
+
+vertical-align: -webkit-baseline-middle;
+}
+.foot p{
+
+padding: 0;
+
+margin: 0;
+
+color: #616ca8;
+}
+.ss{
+    display: inline;
+}
+.icons{
+
+width: 40%;
+
+display: inline-block;
+
+text-align: end;
+
+padding: 0;
+}
+.icons i{font-size: 20px;vertical-align: -webkit-baseline-middle;color: #616ca8;padding-left: 7px;}
